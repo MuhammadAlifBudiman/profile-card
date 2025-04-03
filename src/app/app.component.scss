@@ -1,28 +1,54 @@
 .profile-card {
     max-width: 400px;
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
+    padding: 25px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #f0f0f0, #d9d9d9);
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
     text-align: center;
-    font-size: 24px;
-    margin-bottom: 15px;
-}
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-p {
-    font-size: 17px;
-}
-
-input {
-    width: 90%;
-    padding: 10px;
-    margin: 5px 0 10px 0;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    p {
+      font-size: 18px;
+      margin: 8px 0;
+      strong {
+        color: #555;
+      }
+    }
+  
+    h3 {
+      font-size: 20px;
+      margin: 15px 0;
+      color: #666;
+    }
+  
+    input {
+      width: calc(100% - 20px);
+      padding: 12px;
+      margin: 8px 0;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background: #f0f0f0;
+      box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+      transition: all 0.2s ease;
+  
+      &:focus {
+        outline: none;
+        box-shadow: inset 2px 2px 4px #bebebe, inset -2px -2px 4px #ffffff;
+      }
+    }
   }
+  
