@@ -1,6 +1,32 @@
 # ProfileCard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+This project is part of the Udemy course [30 Days of Angular: Build 30 Web Projects with Angular](https://www.udemy.com/course/30-days-of-angular/).
+
+## Project Overview
+
+ProfileCard is a simple Angular application that demonstrates how to build a modern, responsive profile card component using Angular. The project is designed as a hands-on exercise to help you practice Angular fundamentals, including component structure, styling with SCSS, and basic Angular CLI usage.
+
+## Features
+
+- Responsive profile card layout
+- Modular Angular component structure
+- SCSS styling for easy customization
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Angular CLI](https://angular.io/cli)
+
+### Installation
+
+1. Clone the repository or download the source code.
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
 
 ## Development server
 
